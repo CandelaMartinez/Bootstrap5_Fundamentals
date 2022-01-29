@@ -1,0 +1,87 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-image: url('../images/pattern.png');
+    background-repeat: repeat;
+}
+
+.bg-primary{
+    background-color: #a593c2 !important;
+}
+
+/*cards*/
+.card-footer {
+    background: transparent;
+    border-top: 0px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 40rem;
+    max-width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+ 
+  .welcome-carousel-image1{
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+    background-image:url('../images/carousel1.jpg');
+  }
+
+  .welcome-carousel-image2{
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+    background-image:url('../images/carousel2.jpg');
+  }
+
+  .welcome-carousel-image3{
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+    background-image:url('../images/carousel3.jpg');
+  }
+
+  /*shopping cart offcanvas*/
+  .shopping-cart-offcanvas{
+      width: 500px;
+  }
+
+  /* Jumbotron */
+
+.jumbotron-cheese-cakes {
+  background: url('../images/products/cheesecake.jpg') no-repeat fixed;
+}
+
+.jumbotron-all-pies {
+  background: url('../images/carousel2.jpg') no-repeat fixed;
+}
+
+.jumbotron-fruit-pies {
+  background: url('../images/products/strawberrypie.jpg') no-repeat fixed;
+}
+
+.jumbotron-seasonal-pies {
+  background: url('../images/products/cranberrypie.jpg') no-repeat fixed;
+}
+
+.jumbotron-other {
+  background: url('../images/carousel3.jpg') no-repeat fixed;
+}
+
+.jumbotron-detail-apple-pie {
+  background: url('../images/products/applepie.jpg') no-repeat fixed;
+}
+
+.jumbotron {
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.1);
+  height: 40vh;
+  background-size: cover;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bethany's Pie Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+
+      <!-- Custom styles for this template -->
+      <link href="css/bootstrap-override.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
+            <div class="container">
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/pie.png" width="30" height="30" class="d-inline-block align-top"
+                        alt="Bethany's Pie Shop Logo">
+                    Bethany's Pie Shop
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="nav navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                               
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="nav-dropdown" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pies
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="nav-dropdown">
+                                <li><a class="dropdown-item" href="fruitpies.html">Fruit Pies</a></li>
+                                <li><a class="dropdown-item" href="cheesecakes.html">Cheese cakes</a></li>
+                                <li><a class="dropdown-item" href="seasonalpies.html">Seasonal Pies</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="allpies.html">All pies</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="order.html">Order</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+
+        <div class="container-fluid jumbotron jumbotron-seasonal-pies py5">
+            <div class="container">
+                <h1 class="display-3 fw-bold text-white">Apple pie</h1>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <nav class="my-3 ms-3" style="--bs-breadcrumb-divider: '>';">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pies</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Seasonal pies</li>
+                </ol>
+            </nav>
+            
+
+            <div class="row">
+                <div class="col-md-4">
+                    <img width="175" height="175" src="images/products/christmasapplepiesmallsquare.jpg">
+                    <h2>Christmas apple pie</h2>
+                    <p>Happy holidays with this pie!</p>
+                    <p><a class="btn btn-primary" href="applepie.html" role="button">View details</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img width="175" height="175" src="images/products/cranberrypiesmallsquare.jpg">
+                    <h2>Cranberry pie</h2>
+                    <p>A Christmas favorite</p>
+                    <p><a class="btn btn-primary" href="applepie.html" role="button">View details</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img width="175" height="175" src="images/products/pumpkinpiesmallsquare.jpg">
+                    <h2>Pumpkin pie</h2>
+                    <p>Our Halloween favorite</p>
+                    <p><a class="btn btn-primary" href="applepie.html" role="button">View details</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
